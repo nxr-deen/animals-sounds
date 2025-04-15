@@ -35,5 +35,3 @@ A fun and interactive **animal sound drum kit** built with HTML, CSS, and JavaSc
 3. Click a button or press a key to play the sound 🎵
 
 ---
-
-Feel free to improve the design, add more sounds, or expand the drum kit!
