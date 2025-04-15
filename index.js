@@ -50,7 +50,7 @@ for (let i = 0; i < drums.length; i++) {
   });
 }
 
-// ✅ Add this for keyboard handling:
+//  Add this for keyboard handling:
 document.addEventListener("keydown", function (event) {
   const key = event.key.toLowerCase();
   const button = document.querySelector("." + key);
