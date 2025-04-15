@@ -1,6 +1,6 @@
 # 🐾 Animal Drum Kit
 
-A fun and interactive **animal sound drum kit** built with HTML, CSS, and JavaScript!
+A fun and interactive **animal sound ** built with HTML, CSS, and JavaScript!
 
 ## 🎯 Features
 
