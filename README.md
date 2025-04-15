@@ -33,5 +33,3 @@ A fun and interactive **animal sound drum kit** built with HTML, CSS, and JavaSc
 1. Clone or download this repository
 2. Open `index.html` in your browser
 3. Click a button or press a key to play the sound 🎵
-
----
