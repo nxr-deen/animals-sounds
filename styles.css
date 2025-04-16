@@ -1,3 +1,9 @@
+:root {
+  --light-color: #DBEDF3;
+  --accent-color: #DA0463;
+  --bg-color: #283149;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,52 +11,47 @@
 }
 
 body {
-  text-align: center;
-  background-color: #283149;
+  background-color: var(--bg-color);
+  display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
 }
 
 h1 {
   font-size: 5rem;
-  color: #DBEDF3;
+  color: var(--light-color);
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
-
+  text-shadow: 3px 0 var(--accent-color);
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
 
-.w {
+.cat {
   background-image: url('images/Cat.jpg');
   background-size: cover;
 }
 
-.a {
-  background-image: url('images/download.jpg');
-  background-size: cover;
-
-}
-
-.s {
-  background-image: url('images/Cow.jpg');
-  background-size: cover;
-}
-
-.d {
+.buffalo {
   background-image: url('images/Buffalo.jpg');
   background-size: cover;
 }
 
-.j {
-  background-image: url('images/Lion.jpg');
-  background-size: cover;
-}
-
-.k {
+.elephant {
   background-image: url('images/Elephant.jpg');
   background-size: cover;
 }
 
-.l {
+.lion {
+  background-image: url('images/Lion.jpg');
+  background-size: cover;
+}
+
+.horse {
   background-image: url('images/Horse.jpg');
   background-size: cover;
 }
@@ -66,7 +67,7 @@ h1 {
 }
 
 .pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
+  box-shadow: 0 3px 4px 0 var(--light-color);
   opacity: 0.5;
 }
 
@@ -81,8 +82,8 @@ h1 {
   font-family: 'Arvo', cursive;
   line-height: 2;
   font-weight: 900;
-  color: #DA0463;
-  text-shadow: 3px 0 #DBEDF3;
+  color: var(--accent-color);
+  text-shadow: 3px 0 var(--light-color);
   border-radius: 15px;
   display: inline-block;
   width: 150px;
@@ -92,11 +93,9 @@ h1 {
   background-color: white;
 }
 
-
 table {
   border-collapse: collapse;
   width: 50%;
-  border: none;
   margin: 0 auto;
 }
 
@@ -108,5 +107,5 @@ td, p {
   padding: 10px;
   font-size: 20px;
   font-family: 'Arvo', cursive;
-  color: #DBEDF3;
+  color: var(--light-color);
 }
