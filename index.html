@@ -1,44 +1,40 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Animals Sounds</title>
+    <title>Animal Sounds</title>
     <link rel="stylesheet" href="styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Arvo"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet" />
   </head>
 
   <body>
-    <h1 id="title">Animals 🔊 Sounds</h1>
+    <h1 id="title">🐾 Animal Sounds 🔊</h1>
+
     <div class="set">
-      <button class="w drum"></button>
-      <button class="a drum"></button>
-      <button class="s drum"></button>
-      <button class="d drum"></button>
-      <button class="j drum"></button>
-      <button class="k drum"></button>
-      <button class="l drum"></button>
+      <button class="drum" data-key="w" aria-label="Cat">W</button>
+      <button class="drum" data-key="a" aria-label="Dog">A</button>
+      <button class="drum" data-key="s" aria-label="Cow">S</button>
+      <button class="drum" data-key="d" aria-label="Bison">D</button>
+      <button class="drum" data-key="j" aria-label="Lion">J</button>
+      <button class="drum" data-key="k" aria-label="Elephant">K</button>
+      <button class="drum" data-key="l" aria-label="Horse">L</button>
     </div>
-    <div>
-      <p>
-        you can also play the sound by pressing the key that follow the name of
-        the animal:
-      </p>
+
+    <div class="info">
+      <p>Press the keys or click the buttons to hear the animal sounds:</p>
       <table>
         <tr>
-          <td>W: Cat</td>
-          <td>A: Dog</td>
-          <td>S: Cow</td>
+          <td><strong>W</strong>: Cat 🐱</td>
+          <td><strong>A</strong>: Dog 🐶</td>
+          <td><strong>S</strong>: Cow 🐄</td>
         </tr>
         <tr>
-          <td>D: Bison</td>
-          <td>J: Lion</td>
-          <td>K: Elephant</td>
+          <td><strong>D</strong>: Bison 🦬</td>
+          <td><strong>J</strong>: Lion 🦁</td>
+          <td><strong>K</strong>: Elephant 🐘</td>
         </tr>
         <tr>
-          <td colspan="3" class="v">L: Horse</td>
+          <td colspan="3" class="v"><strong>L</strong>: Horse 🐎</td>
         </tr>
       </table>
     </div>
