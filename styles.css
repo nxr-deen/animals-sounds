@@ -29,50 +29,36 @@ h1 {
 .cat {
   background-image: url('images/Cat.jpg');
   background-size: cover;
-  height: 100vh;
-  width: 100%;
 }
 
 .download {
   background-image: url('images/download.jpg');
   background-size: cover;
-  height: 100vh;
-  width: 100%;
 }
 
 .cow {
   background-image: url('images/Cow.jpg');
   background-size: cover;
-  height: 100vh;
-  width: 100%;
 }
 
 .buffalo {
   background-image: url('images/Buffalo.jpg');
   background-size: cover;
-  height: 100vh;
-  width: 100%;
 }
 
 .lion {
   background-image: url('images/Lion.jpg');
   background-size: cover;
-  height: 100vh;
-  width: 100%;
 }
 
 .elephant {
   background-image: url('images/Elephant.jpg');
   background-size: cover;
-  height: 100vh;
-  width: 100%;
 }
 
 .horse {
   background-image: url('images/Horse.jpg');
   background-size: cover;
-  height: 100vh;
-  width: 100%;
 }
 
 .set {
